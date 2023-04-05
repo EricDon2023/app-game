@@ -1,0 +1,36 @@
+*{
+  margin:0;
+  padding: 0;
+}
+a{
+  text-decoration: node;
+}
+:root{
+  --color-242c34:#242c34; /*Đậm*/
+  --color-283039:#283039; /*Nhạt Đậm*/
+  --color-303841:#303841; /*Nhạt*/
+}
+/*Header*/
+.custom-container{
+  max-width: 90%;
+}
+.header-app{
+  background-color: var(--color-283039);
+}
+.color-text-nav{
+  color: wheat;
+}
+.color-text-nav:hover{
+  color: aqua;
+}
+
+/*Footer*/
+.footer-app{
+  background-color: var(--color-242c34);
+}
+.footer-text-color{
+  color: wheat;
+}
+.list-inline-item{
+  font-size: 20px;
+}
